@@ -15,7 +15,7 @@ class Solution {
             int mid = (low+high)/2;
            
                if(grid[i][mid] < 0){
-                 count = count + high - mid +1 ;
+                 count = count+ high - mid +1 ;  //count total element from mid to high
                  high = mid -1;
                }else{
                 low = mid + 1;
