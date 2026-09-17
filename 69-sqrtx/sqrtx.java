@@ -6,6 +6,6 @@ class Solution {
         root = i;
       }
       return (int)root;
-      
+  
     }
 }
