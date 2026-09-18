@@ -31,9 +31,7 @@ class Solution {
                 sec = mid+1;
             }
 
-            int leftCount = first - low;
-            int rightCount = high - sec;
-
+        
             if(first%2 == 0){
                 low = sec+1;
             }else{
