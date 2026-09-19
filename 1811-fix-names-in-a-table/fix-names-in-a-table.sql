@@ -6,4 +6,4 @@ SELECT
      LOWER(SUBSTRING(name,2))
    ) as name
 FROM Users
-ORDER BY user_id;
+ORDER BY user_id ASC;
